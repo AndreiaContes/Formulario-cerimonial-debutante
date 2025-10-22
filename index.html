@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cerimonial Andreia Contes</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <!-- CAPA -->
+  <section id="capa" class="pagina ativa">  
+                      
+      <button id="btnComecar">Começar ✨</button>
+     
+   </section>
+
+   <form id="formulario">
+
+
+  <!-- PÁGINA 1 - DADOS PESSOAIS -->
+  <section id="pagina1" class="pagina">
+    <h2>👑 Dados da Debutante</h2>
+  
+      <div class="grupo-campos">
+        <label>Nome Completo:</label>
+        <input type="text" name="nomeDebutante">
+
+        <label>Data de Nascimento:</label>
+        <input type="date" name="dataNascimento">
+
+        <label>Nome da mãe:</label>
+        <input type="text" name="nomeMae">
+
+        <label>Nome do pai:</label>
+        <input type="text" name="nomePai">
+
+        <label>Telefone para contato:</label>
+        <input type="tel" name="telefone">
+
+        <label>Email:</label>
+        <input type="email" name="email">
+      </div>
+
+      <div class="botoes">
+        <button type="button" class="btn-proximo" data-proxima="pagina2">Próxima ➡️</button>
+        <button type="button" class="btn-voltar-inicio">🏠 Voltar ao Início</button>
+      </div>
+      
+    </section>
+
+  <!-- PÁGINA 2 - DETALHES DA FESTA -->
+  <section id="pagina2" class="pagina">
+    <h2>🎉 Detalhes da Festa</h2>
+    <div class="grupo-campos">
+      <label>Data da Festa:</label>
+      <input type="date" name="dataFesta">
+
+      <label>Horário de início:</label>
+      <input type="text" name="horaInicio">
+
+      <label>Local da festa:</label>
+      <input type="text" name="localFesta">
+
+      <label>Tema da festa:</label>
+      <input type="text" name="temaFesta">
+
+      <label>Cores principais:</label>
+      <input type="text" name="coresFesta">
+    </div>
+
+    <div class="botoes">
+      <button type="button" class="btn-anterior" data-anterior="pagina1">⬅️ Voltar</button>
+      <button type="button" class="btn-proximo" data-proxima="pagina3">Próxima ➡️</button>
+      <button type="button" class="btn-voltar-inicio">🏠 Voltar ao Início</button>
+    </div>
+  </section>
+
+  <!-- PÁGINA 3 - CERIMONIAL -->
+  <section id="pagina3" class="pagina">
+    <h2>💫 Cerimonial e Programação</h2>
+    <div class="grupo-campos">
+      <label>Haverá cerimônia de entrada solene?</label>
+      <input type="text" name="entrada">
+
+      <label>Quantas entradas estão previstas?</label>
+      <input type="text" name="quantidadeEntrada">
+
+      <label>Deseja locução ou apenas música de fundo?</label>
+      <input type="text" name="musicaFundo">
+
+      <label>Haverá coreografia? Quem coordenará?</label>
+      <input type="text" name="coreografia">
+
+      <label>Lista de músicas:</label>
+      <input type="text" name="listaDeMusica">
+
+      <label>Haverá homenagem?</label>
+      <input type="text" name="homenagem">
+
+      <label>Haverá valsa tradicional? Com quem?</label>
+      <input type="text" name="valsa">
+
+      <label>Haverá troca de vestido? Em que momento?</label>
+      <input type="text" name="trocaDeVestido">
+
+      <label>Deseja momento de agradecimento ou discurso?</label>
+      <input type="text" name="discurso">
+
+      <label>Haverá entrada com objetos simbólicos?</label>
+      <input type="text" name="objetosSimbolicos">
+
+      <label>Efeitos especiais (chuva de prata, fogos, balões):</label>
+      <input type="text" name="efeitoEspecial">
+    </div>
+
+    <div class="botoes">
+      <button type="button" class="btn-anterior" data-anterior="pagina2">⬅️ Voltar</button>
+      <button type="button" class="btn-proximo" data-proxima="pagina4">Próxima ➡️</button>
+      <button type="button" class="btn-voltar-inicio">🏠 Voltar ao Início</button>
+    </div>
+  </section>
+
+  <!-- PÁGINA 4 - ROTEIRO -->
+  <section id="pagina4" class="pagina">
+    <h2>💫 Roteiro do Evento</h2>
+    <div class="grupo-campos">
+      <label>Horário de chegada dos fornecedores:</label>
+      <input type="text" name="fornecedores">
+
+      <label>Lista de convidados:</label>
+      <input type="text" name="listaDeConvidados">
+
+      <label>Horário previsto para o cerimonial:</label>
+      <input type="text" name="horarioCerimonial">
+
+      <label>Horário do jantar:</label>
+      <input type="text" name="horaJantar">
+
+      <label>Parabéns e corte do bolo:</label>
+      <input type="text" name="parabens">
+
+      <label>Abertura da pista de dança:</label>
+      <input type="text" name="pistaDeDanca">
+
+      <label>Encerramento previsto:</label>
+      <input type="text" name="encerramento">
+    </div>
+
+    <div class="botoes">
+      <button type="button" class="btn-anterior" data-anterior="pagina3">⬅️ Voltar</button>
+      <button type="button" class="btn-proximo" data-proxima="pagina5">Próxima ➡️</button>
+      <button type="button" class="btn-voltar-inicio">🏠 Voltar ao Início</button>
+    </div>
+  </section>
+
+  <!-- PÁGINA 5 - OBSERVAÇÕES -->
+  <section id="pagina5" class="pagina">
+    <h2>💫 Observações Finais</h2>
+    <div class="grupo-campos">
+      <label>Há alguma tradição familiar a manter?</label>
+      <input type="text" name="tradicao">
+
+      <label>Deseja cerimonial formal, leve ou descontraído?</label>
+      <input type="text" name="tipoCerimonial">
+
+      <label>Buffet (empresa e contato):</label>
+      <input type="text" name="buffet">
+
+      <label>Fotógrafo:</label>
+      <input type="text" name="fotografo">
+
+      <label>DJ ou banda:</label>
+      <input type="text" name="dj">
+
+      <label>Garçons e equipe de limpeza:</label>
+      <input type="text" name="equipe">
+
+      <label>Segurança:</label>
+      <input type="text" name="seguranca">
+
+      <label>Outros fornecedores:</label>
+      <textarea name="outrosFornecedores"></textarea>
+    </div>
+
+    <div class="botoes">
+      <button type="button" class="btn-anterior" data-anterior="pagina4">⬅️ Voltar</button>
+      <button type="submit" id="btnEnviar">📨 Enviar Formulário</button>
+      <button type="button" class="btn-voltar-inicio">🏠 Voltar ao Início</button>
+    </div>
+     
+  </section>
+  </form>
+  
+
+  <footer>
+    <p>© Cerimonial Andreia Contes | Elegância e Personalização 💛</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script src="script.js"></script>
+
+     
+</body>
+</html>
