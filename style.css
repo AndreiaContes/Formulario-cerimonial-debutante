@@ -14,14 +14,13 @@ body {
 
 /* ===== CAPA ===== */
 #capa {
-  background: url("imagens/capa.png") no-repeat center center/cover;
+ background: url("imagens/capa.png") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-end; /* botão no rodapé */
   position: relative;
 }
-
 #capa button {
   background: #cebcbf;
   border: none;
@@ -118,3 +117,4 @@ footer {
   color: #444;
   font-size: 14px;
 }
+
